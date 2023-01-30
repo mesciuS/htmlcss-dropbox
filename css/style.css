@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* tolgo i puntini dalle liste */
+
+ul {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    /* questo ul proi devo aggiustarlo per il footer etc. e differenziarlo con le classi */
+}
+
+/* scheletro navbar */
+
+nav {
+    background-color: brown;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 50px;
+    
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+/* scheletro header */
+
+header {
+    
+}
