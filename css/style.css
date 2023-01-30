@@ -155,3 +155,22 @@ header .img-placeholder {
 
 /* fine css per i piani tariffari */
 
+.partner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+    padding-top: 100px;
+
+}
+
+.partner img {
+    width: 50%;
+}
+
+.partner-text {
+    /* stilizzazioni */
+}
+
+/* inizio 6 div a quadrato */
