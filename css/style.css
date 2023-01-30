@@ -10,7 +10,7 @@ body {
 
 /* tolgo i puntini dalle liste */
 
-ul {
+nav ul {
     list-style-type: none;
 
     display: flex;
@@ -205,3 +205,69 @@ header .img-placeholder {
 }
 /* FINE DEL MAIN */
 
+/* SEZIONE QUADRATONI */
+
+#square-container {
+    border: 2px dotted red;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.square-inner {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.square-style {
+    width: 50%;
+    height: 50%;
+}
+
+.square-final {
+    background-color: #b4d0e7;
+
+    width: 100%;
+    height: calc(100vw / 6);
+
+}
+
+/* FINE QUADRATONI */
+
+/* sezione faq con hoover */
+
+.faq-container {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.faq-container h2 {
+    /* padding-top: 50px; */
+    padding-bottom: 30px;
+}
+
+.faq {
+   padding: 30px; 
+}
+
+/* footer */
+
+footer {
+    background-color: #1e1e1e;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer ul {
+    list-style-type: none;
+}
