@@ -162,7 +162,7 @@ header .img-placeholder {
     gap: 20px;
 
     padding-top: 100px;
-
+    padding-bottom: 100px;
 }
 
 .partner img {
@@ -174,3 +174,34 @@ header .img-placeholder {
 }
 
 /* inizio 6 div a quadrato */
+
+#operazioni-container h2 {
+    padding-bottom: 30px;
+}
+
+.operazioni-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 30px;
+}
+
+.operazioni {
+    border: 1px solid black;
+
+    width: 30%;
+    height: 100%;
+}
+
+.main-final {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.main-final h2 {
+    padding-bottom: 30px;
+    /* stilizzazioni varie ed eventuali */
+}
+/* FINE DEL MAIN */
+
