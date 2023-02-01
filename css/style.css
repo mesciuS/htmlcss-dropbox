@@ -57,11 +57,11 @@ nav ul {
 }
 
 nav a {
-    font-size: 0.6em;
+    font-size: 1.2em;
 }
 
 nav li {
-    font-size: 0.6em;
+    font-size: 1.2em;
 }
 
 .login-btn {
@@ -69,7 +69,6 @@ nav li {
     border: transparent;
     padding: 5px 10px;
 
-    font-size: 0.6em;
     color: white;
 }
 
@@ -84,7 +83,7 @@ header {
 }
 
 header .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
    
@@ -96,6 +95,10 @@ header h1 {
 
     font-size: 3em;
     font-weight: 900;
+}
+
+header p {
+    font-size: 1.2em;
 }
 
 header .container .container-outer {
@@ -113,6 +116,8 @@ header .container .container-inner {
     background-color: #0061ff;
     border: transparent;
     padding: 5px 10px;
+
+    font-size: 1.2em;
 
     color: white;
 }
@@ -271,7 +276,6 @@ header .img-container img {
 }
 
 .square-style-big p {
-    font-size: 0.6em;
     padding-top: 20px;
 }
 
@@ -384,7 +388,7 @@ footer {
 }
 
 footer .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
@@ -399,6 +403,11 @@ footer .container {
     padding-bottom: 2em;
 }
 
+.footer-list strong {
+    font-size: 2em;
+
+}
+
 footer ul {
     list-style-type: none;
     padding-top: 1em;
@@ -406,11 +415,11 @@ footer ul {
 
 footer li {
     padding-bottom: 10px;
-    font-size: 0.6em;
+    font-size: 1em;
 }
 
 .footer-last { 
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 
