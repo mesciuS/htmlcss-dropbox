@@ -256,6 +256,9 @@ header .img-container img {
     background-color: #f5f5f5;
 
     padding: 20px;
+
+    overflow-y: auto;
+    /* stilizzare scrollbar forse */
 }
 
 .square-big-img {
@@ -284,7 +287,7 @@ header .img-container img {
 
 .square-img {
     width: 50%;
-    height: 50%;
+    filter: invert(1);
 
     position: absolute;
     top: 50%;
@@ -331,7 +334,9 @@ header .img-container img {
     align-content: center;
     
     width: 100%;
-    height: calc(100vw / 6);
+    min-height: calc(100vw / 6);
+
+    padding: 2em;
 
     background-color: #b4d0e7;
 }
@@ -368,17 +373,54 @@ header .img-container img {
    padding: 30px; 
 }
 
-/* footer */
+/* FOOTER */
 
 footer {
-    background-color: #1e1e1e;
+    width: 100%;
+
     padding-top: 30px;
+    background-color: #1e1e1e;
     color: white;
+}
+
+footer .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+}
+
+.footer-list {
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 footer ul {
     list-style-type: none;
+    padding-top: 1em;
 }
+
+footer li {
+    padding-bottom: 10px;
+    font-size: 0.6em;
+}
+
+.footer-last { 
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-bottom: 2em;
+
+    color: white;
+}
+
+.footer-last hr {
+    width: 15%;
+    margin-bottom: 1em;
+}
+
