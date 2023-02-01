@@ -227,23 +227,24 @@ header .img-container img {
     padding-top: 2em;
     padding-bottom: 1em;
 }
+
+/* fine colonne verticali */
+
 .plan-horizontal {
     border: 1px solid gray;
 
     width: 100%;
-
 }
 
-.plan-inner-horizontal {
-    background-color: brown;
-
-    width: 100%;
-
-    height: 150px;
-    /* levare altezza fissa devono allungarsi con la pagina ??? forse qua deve rimanere*/
+.horizontal-outer {
+    display: flex;
+    justify-content: space-between;
 }
 
-/* fine css per i piani tariffari */
+.horizontal-outer .blue-btn {
+    margin: 2em;
+}
+/* FINE CSS PIANI TARIFFARI */
 
 .partner {
     display: flex;
