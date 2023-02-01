@@ -152,10 +152,15 @@ header .img-container img {
     flex-direction: column;
     justify-items: flex-start;
 
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 150px;
+    padding-bottom: 50px;
 
     gap: 20px;
+}
+
+.intestazione-plan h2 {
+    font-size: 2.5em;
+    padding-bottom: 50px;
 }
 
 .plan-outer {
@@ -282,6 +287,7 @@ header .img-container img {
 
 #operazioni-container h2 {
     padding-bottom: 30px;
+    font-size: 2.5em;
 }
 
 .operazioni-row {
@@ -293,20 +299,31 @@ header .img-container img {
 }
 
 .operazioni {
-    border: 1px solid black;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 30%;
-    height: 100%;
+}
+
+.operazioni img {
+    width: 90%;
+    padding-bottom: 1em;
+}
+
+.operazioni h4 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
 }
 
 .main-final {
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 150px;
 }
 
 .main-final h2 {
+    font-size: 2.5em;
     padding-bottom: 30px;
-    /* stilizzazioni varie ed eventuali */
+
 }
 /* FINE DEL MAIN */
 
