@@ -361,7 +361,7 @@ header .img-container img {
 
 /* FINE QUADRATONI */
 
-/* sezione faq con hoover */
+/* FAQ */
 
 .faq-container {
     max-width: 1000px;
@@ -378,9 +378,15 @@ header .img-container img {
 }
 
 .faq {
-   padding: 30px; 
+   display: flex;
+   justify-content: space-between;
+
+   padding-top: 2em;
+   padding-bottom: 2em;
    font-weight: bold;
 }
+
+/* FINE FAQ */
 
 /* FOOTER */
 
