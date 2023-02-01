@@ -126,7 +126,7 @@ header .container .container-inner {
     border: transparent;
     padding: 10px 20px;
 
-    font-size: 1.2em;
+    font-size: 1em;
 
     color: white;
 }
@@ -158,8 +158,6 @@ header .img-container img {
     gap: 20px;
 }
 
-
-
 .plan-outer {
     display: flex;
     justify-content: space-between;
@@ -173,17 +171,64 @@ header .img-container img {
     width: 30%;
 }
 
-.plan-inner {
-    background-color: brown;
+.plan-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
 
-    width: 100%;
-
-    height: 400px;
-    /* levare altezza fissa devono allungarsi con la pagina */
+    border-bottom: 1px solid gray;
 }
 
+.plan-body {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+.plan-body h3 {
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.price {
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.period {
+    color: gray;
+    padding-bottom: 2em;
+}
+
+.plan-table {
+    
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-bottom: 1em;
+}
+
+.row-text {
+    padding-left: 0.5em;
+}
+
+.plan-body p {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.plan-body hr {
+    width: 25%;
+}
+
+.plan-body h4 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
 .plan-horizontal {
-    border: 1px solid black;
+    border: 1px solid gray;
 
     width: 100%;
 
