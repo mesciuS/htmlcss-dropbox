@@ -373,12 +373,13 @@ header .img-container img {
 }
 
 .faq-container h2 {
-    /* padding-top: 50px; */
     padding-bottom: 30px;
+    font-size: 3em;
 }
 
 .faq {
    padding: 30px; 
+   font-weight: bold;
 }
 
 /* FOOTER */
