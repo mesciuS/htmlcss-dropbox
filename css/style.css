@@ -33,15 +33,13 @@ nav {
     flex-direction: row;
 
     align-items: center;
-
-    gap: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-nav img {
+.logo {
     width: 30%;
     height: auto;
+    padding-left: 20px;
+
 }
 
 
@@ -50,10 +48,12 @@ nav ul {
 
     display: flex;
     flex-direction: row;
-    
 
-    gap: 10px;
+    align-items: center;
     
+    gap: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 nav a {
@@ -71,6 +71,10 @@ nav li {
 
     font-size: 1.2em;
     color: white;
+}
+
+.login {
+    padding-right: 20px;
 }
 
 
@@ -94,7 +98,7 @@ header h1 {
     padding-top: 40px;
     padding-bottom: 30px;
 
-    font-size: 3em;
+    font-size: 5em;
     font-weight: 900;
 }
 
@@ -111,12 +115,14 @@ header .container .container-inner {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+
+    padding-bottom: 20px;
 }
 
 .blue-btn {
     background-color: #0061ff;
     border: transparent;
-    padding: 5px 10px;
+    padding: 10px 20px;
 
     font-size: 1.2em;
 
@@ -126,7 +132,7 @@ header .container .container-inner {
 header .img-container img {
     width: 100%;
 
-    margin-bottom: -30px;
+    margin-bottom: -50px;
 }
 
 /* FINE HEADER STILIZZATA */
